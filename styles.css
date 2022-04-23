@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(192, 23, 195, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#content {
+  width: 600px;
+}
+
+#input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  width: 535px;
+  height: 50px;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  outline: none;
+  margin: 0 20px;
+  width: 250px;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-top: 50px;
+}
+
+h2 {
+  display: block;
+}
+
+#recommendationTitle {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+#recommendation {
+  font-size: 3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+#movieList {
+  font-size: 3rem;
+  height: 200px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+#input:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transition: 300ms;
+}
